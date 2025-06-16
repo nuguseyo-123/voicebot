@@ -12,6 +12,8 @@ from datetime import datetime
 from gtts import gTTS
 # 음원 파일 재생을 위한 패키지 추가
 import base64
+
+import pydub
 ##### 기능 구현 함수 #####
 # [수정됨] client 객체를 인자로 받도록 변경
 def STT(audio, client):
